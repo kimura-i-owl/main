@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body{
+    background-image:url("./imageFile/006.jpg");
+    background-repeat: none;
+    background-size:cover;
+    background-position: center top;
+    min-height:100vh;
+
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 20px 0px 20px;
+    color:azure;
+}
+
+.top-logo{
+    font-size:1.5rem;
+    font-family:'philosopher',serif;
+    margin:10px;
+    text-transform:uppercase;
+}
+.top-logo a{
+    color:azure;
+
+}
+.top-nav{
+    font-size:1rem;
+    font-family:'philosopher',serif;
+}
+
+.top-nav p{
+    margin:10px;
+}
+.top-nav a{
+    color:azure;
+}
+.top-nav nav{
+    display: flex;
+    margin:10px;
+}
+
+
+main{
+    margin-top:12.5%;
+}
+main p{
+    color:azure;
+    font-size:2rem;
+    font-family:'philisopher',serif;
+    text-align:center;
+}
+
+main h1{
+    color:azure;
+    font-size:4rem;
+    font-family:'philisopher',serif;
+    text-align:center;
+
+}
+
+main h2{
+    color:azure;
+    font-size:2rem;
+    font-family:'philisopher',serif;
+    text-align:center;
+    margin-top:2%;
+
+}
+
+main h3{
+    color:azure;
+    background-color:rbga(148, 173, 187,0.5);
+    background-size:cover;
+    text-align:center;
+    margin:40px;
+}
+
+main a{
+    color:azure;
+    
+    
+}
+
+main h3{
+    margin:50px;
+}
+
+
+
+.button{
+    font-size:1rem;
+    color:azure;
+    background:rgba(146, 168, 195,0.5);
+    padding:5px 20px 5px 20px;
+    font-family:'philosopher',serif;
+    border-radius: 15px;
+
+}
+
+footer{
+    background-color:aliceblue;
+
+}
+.foot{
+    color:rgba(146, 168, 195,1);
+    font-family:'philosopher',serif;
+    font-size:0.5rem;
+
+}
